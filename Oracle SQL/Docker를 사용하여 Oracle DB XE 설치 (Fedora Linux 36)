@@ -41,5 +41,8 @@ docker run --name oracle -d -p 1521:1521 jaspeen/oracle-xe-11g
 docker exec -it oracle sqlplus
 
 # 시스템을 재시작하면 해당 컨테이너를 다시 시작해줘야한다.
-# 기존에 있던 container 시작
+# 기존에 있던 컨테이너 시작
 docker start oracle
+
+# 해당 컨테이너로 Bash 실행(터미널 사용)
+docker exec -ot oracle /bin/bash
