@@ -1,0 +1,8 @@
+
+1. DCONF-EDITOR 설치
+sudo dnf install dconf-editor
+
+2. Ctrl + Alt + Down 단축키를 차지하고 있는 아래 단축키 기본값 사용을 해지하고 []으로 변경
+org.gnome.desktop.wm.keybindings
+
+3. 이제 Fedora Linux GNOME 데스크톱 환경에서 Eclipse IDE 줄 복사 단축키를 사용할 수 있다.
