@@ -1,0 +1,5 @@
+1. DCONF-EDITOR 설치
+sudo dnf install dconf-editor
+
+2. org.gnome.desktop.wm.preferences
+appmenu:minimize,maximize,close
