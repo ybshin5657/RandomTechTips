@@ -1,0 +1,16 @@
+Fedora Linux 기본 ibus 한글 입력기 사용 시 빠르게 입력하면
+우측 Alt키의 기본 기능인 메뉴 표시가 단축하여 키가 씹히고 메뉴가 제멋대로 실행되는 경우가 있다.
+
+1. ibus 설정 실행
+$ ibus-setup
+
+2. 우측 Alt 키를 Hangul 키로 재지정
+$ sudo nano /usr//share/X11/xkb/symbols/altwin
+//symbols[Group1] = [ Alt_R, Meta_R ] };
+symbols[Group1] = [ Hangul ] };
+
+3. 시스템 재시작
+$ reboot
+
+4. ibus 한국어 입력기 설정에서 기존 한영 전환키 삭제 후 Hangul 키를 지정한다.
+
