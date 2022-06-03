@@ -1,0 +1,4 @@
+$ sudo btrfs filesystem resize 조절할_크기 마운트_위치
+
+예) 루트 파티션(/)을 120GB 줄이려면
+$ sudo btrfs filesystem resize -120G /
