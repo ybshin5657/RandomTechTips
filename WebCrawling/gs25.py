@@ -51,7 +51,7 @@ def get_gs25_prd_list() -> list:
 
 def get_auth_info() -> dict:
     """
-    CSRT 토큰과 JSP 세션 ID를 반환합니다.
+    CSRF 토큰과 JSP 세션 ID를 반환합니다.
 
     근데 행사 상품 목록 그냥 get 방식으로 호출하니까 그냥 되네요.
     post로 호출하면 토큰이랑 세션 ID 없이는 안 되던데.
